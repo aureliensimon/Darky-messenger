@@ -5,5 +5,8 @@
   },
   "devDependencies": {
     "sass": "^1.22.12"
+  },
+  "dependencies": {
+    "scss": "^0.2.4"
   }
 }

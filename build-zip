@@ -12,4 +12,4 @@ files=(
   "./style.css"
 )
 
-zip -9 "../messenger-dark-theme.zip" ${files[*]}
+tar -czf "../messenger-dark-theme.zip" ${files[*]}
