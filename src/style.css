@@ -1,0 +1,159 @@
+body {
+  background: #1c1c1c !important;
+}
+
+/* Main background */
+._4sp8 {
+  background: #1b1b1b !important;
+}
+
+/* tout les textes */
+._4sp8 *:not(._2her) {
+  color: #f5f5f5 !important;
+}
+
+/* texte Rechercher dans Messenger */
+._4sp8 input::placeholder {
+  color: #f5f5f5 !important;
+}
+
+/* partie du bas (du boutton plus au like) */
+._5irm._7mkm {
+  background: #2a2a2a !important;
+}
+/* background écrivez un message */
+._5irm._7mkm ._7kpk {
+  background: #3c3c3c !important;
+}
+/* texte ecrivez un message */
+._5irm._7mkm ._1p1v {
+  -webkit-text-fill-color: #a1a1a1 !important;
+}
+
+._4_j4 .chatAttachmentShelf {
+  background: red !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+/* background Rechercher dans Messenger */
+._1enh._7q1s ._58al._7tpc {
+  background: #3c3c3c !important;
+}
+/* trois petit points */
+._1enh._7q1s ._5blh path {
+  fill: #f5f5f5 !important;
+}
+/* background icon reglages et écrire */
+._1enh._7q1s ._6ymu,
+._1enh._7q1s ._6-xp {
+  background: #3c3c3c !important;
+}
+/* couleur icon reglages et écrire */
+._1enh._7q1s ._6ymu path,
+._1enh._7q1s ._6-xp path {
+  fill: #f5f5f5 !important;
+}
+
+._1enh._7q1s ._6-xg,
+._1enh._7q1s ._6zv9 path {
+  fill: white !important;
+}
+/* messenge reçu */
+._o46:not(._3i_m) ._3oh-,
+._5i_d,
+._2f5n {
+  background: #4c4c4c !important;
+}
+/* vous a répondu */
+._7301._hh7._hh7._6ybn,
+._7301._hh7._hh7._6ybn:active,
+._3egs {
+  background: #1c1c1c !important;
+}
+ 
+._wu0 {
+  background: #3c3c3c !important;
+  border: #3c3c3c !important;
+}
+ 
+._576q > svg > rect {
+  fill: #1c1c1c !important;
+}
+/* icon upload */
+._7i2j path {
+  fill: #f5f5f5 !important;
+}
+/* background transferer message hover */
+._7i2j span:hover {
+  background: #1c1c1c !important;
+}
+/* icon transferer message hover */
+._7i2j span:hover path {
+  fill: white !important;
+}
+
+._hw3 {
+  background: black !important;
+}
+/* background emoji */
+._aou {
+  background: #f5f5f5 !important;
+  box-shadow: 0px 2px 5px rgba(5, 5, 5, 0.4) !important;
+}
+/* emoji div */
+._4kf5 {
+  background: #f5f5f5 !important;
+}
+/* emoji compteur */
+._4kf5._4kf6 {
+  color: #1c1c1c !important;
+}
+
+._33p7 {
+  background: #1c1c1c !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+ 
+._33p7 ._5iwm ._58al {
+  background: #1c1c1c !important;
+}
+/* menu droite */
+._1liy ._1lj0:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* menu droite icon loupe et écrire */
+._6ybv,
+._6y56,
+._6ybz,
+._7hu0,
+._7hu1,
+._7hty {
+  background: #3c3c3c !important;
+}
+/* texte menu droite icon loupe et écrire */
+._6ybv path,
+._6y56 path,
+._6ybz path,
+._7hu0 path,
+._7hu1 path,
+._7hty path {
+  fill: #f5f5f5 !important;
+}
+
+._4gd0 {
+  background: #1c1c1c !important;
+}
+/* bordure entre menu droite */
+._1li-,
+._67tu {
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+/* bordure milieu */
+._4_j5,
+._1t2u {
+  border-left: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+/* bordure haut */
+._6ynl {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}

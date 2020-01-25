@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# Packages the necessary files into a .zip archive
+
+npm run transpile
+
+cd src
+
+files=(
+  "./manifest.json"
+  "./icons/*.png"
+  "./style.css"
+)
+
+zip -9 "../messenger-dark-theme.zip" ${files[*]}

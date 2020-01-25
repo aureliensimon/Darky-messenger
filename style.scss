@@ -1,0 +1,217 @@
+$white: white !important;
+$dark1: #1c1c1c !important;
+$dark2: #2c2c2c !important;
+$dark3: #3c3c3c !important;
+$placeholderTextColor: #9c9c9c !important;
+$hoverColor: rgba(255, 255, 255, 0.05) !important;
+$borderStyle: 1px solid $hoverColor;
+
+body {
+  background: $dark1; // dark bg while page loads
+}
+
+// App
+$appContainer: "._4sp8";
+$verifiedDeliveryIcon: "._2her";
+
+#{$appContainer} {
+  background: $dark1;
+
+  *:not(#{$verifiedDeliveryIcon}) {
+    color: $white;
+  }
+
+  input::placeholder {
+    color: $placeholderTextColor;
+  }
+}
+
+// New message section
+$newMessageSection: "._5irm._7mkm";
+$newMessageInputContainer: "._7kpk";
+$newMessageInput: "._1p1v";
+$newMessageAttachmentContainer: "._4_j4 .chatAttachmentShelf";
+
+#{$newMessageSection} {
+  background: $dark1;
+
+  #{$newMessageInputContainer} {
+    background: $dark2;
+  }
+
+  #{$newMessageInput} {
+    -webkit-text-fill-color: $placeholderTextColor;
+  }
+}
+
+#{$newMessageAttachmentContainer} {
+  background: $dark1;
+  border-top: $borderStyle;
+}
+
+// Chat list
+$chatListContainer: "._1enh._7q1s";
+$chatListSearchInput: "._58al._7tpc";
+$chatListSettingsIconContainer: "._6ymu";
+$chatListNewChatIconContainer: "._6-xp";
+$chatListItemOverflowMenu: "._5blh";
+$chatListBackToMessagesIcon: "._6-xg";
+$chatListCancelNewMessageIcon: "._6zv9";
+
+#{$chatListContainer} {
+  #{$chatListSearchInput} {
+    background: $dark2;
+  }
+
+  #{$chatListItemOverflowMenu} path {
+    fill: $white;
+  }
+
+  #{$chatListSettingsIconContainer},
+  #{$chatListNewChatIconContainer} {
+    background: $dark2;
+
+    path {
+      fill: $white;
+    }
+  }
+
+  #{$chatListBackToMessagesIcon},
+  #{$chatListCancelNewMessageIcon} path {
+    fill: $white;
+  }
+}
+
+// Messages
+$messageRow: "._o46";
+$messageRowSelf: "._3i_m";
+$messageBubble: "._3oh-";
+$messageLinkBubble: "._5i_d";
+$messageLikeEmoji: "._576q";
+$messageRemovedBubble: "._7301._hh7._hh7._6ybn";
+$messageCodeBubble: "._wu0";
+$messageYouRepliedHeader: "._3egs";
+$messageGifFooter: "._2f5n";
+
+#{$messageRow}:not(#{$messageRowSelf}) #{$messageBubble},
+#{$messageLinkBubble},
+#{$messageGifFooter} {
+  background: $dark2;
+}
+
+#{$messageRemovedBubble},
+#{$messageRemovedBubble}:active,
+#{$messageYouRepliedHeader} {
+  background: $dark1;
+}
+
+#{$messageCodeBubble} {
+  background: $dark3;
+  border: $dark3;
+}
+
+#{$messageLikeEmoji} > svg > rect {
+  fill: $dark1;
+}
+
+// Message actions
+$messageRowActions: "._7i2j";
+$messageDeleteFlyout: "._hw3";
+
+#{$messageRowActions} {
+  path {
+    fill: $placeholderTextColor;
+  }
+
+  span:hover {
+    background: $dark2;
+
+    path {
+      fill: $white;
+    }
+  }
+}
+
+#{$messageDeleteFlyout} {
+  background: black !important;
+}
+
+// Message reaction badges
+$messageReactionContainer: "._aou";
+$messageReactionBadge: "._4kf5";
+
+#{$messageReactionContainer} {
+  background: $dark1;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4) !important;
+}
+
+#{$messageReactionBadge} {
+  background: $dark1;
+}
+
+// Info panel
+$infoPanelSectionHeader: "._1liy ._1lj0";
+$infoPanelSearchConversationBar: "._33p7";
+$infoPanelSearchConversationInput: "._5iwm ._58al";
+
+#{$infoPanelSearchConversationBar} {
+  background: $dark1;
+  border-bottom: $borderStyle;
+
+  #{$infoPanelSearchConversationInput} {
+    background: $dark1;
+  }
+}
+
+#{$infoPanelSectionHeader}:hover {
+  background: $hoverColor;
+}
+
+// Info panel icons
+$infoPanelSearchConversationIcon: "._6ybv";
+$infoPanelEditNicknamesIcon: "._6y56";
+$infoPanelNotificationsIcon: "._6ybz";
+$infoPanelIgnoreMessagesIcon: "._7hu0";
+$infoPanelBlockMessagesIcon: "._7hu1";
+$infoPanelFeedbackIcon: "._7hty";
+
+#{$infoPanelSearchConversationIcon},
+#{$infoPanelEditNicknamesIcon},
+#{$infoPanelNotificationsIcon},
+#{$infoPanelIgnoreMessagesIcon},
+#{$infoPanelBlockMessagesIcon},
+#{$infoPanelFeedbackIcon} {
+  background: $dark2;
+
+  path {
+    fill: $white;
+  }
+}
+
+// Misc.
+$typingIndicatorContainer: "._4gd0";
+
+#{$typingIndicatorContainer} {
+  background: $dark1;
+}
+
+// Borders
+$infoPanelContainer: "._4_j5";
+$infoPanelDivBorder: "._1li-";
+$conversationTitleContainer: "._6ynl";
+$chatWindowContainer: "._1t2u";
+$replyToMessageSection: "._67tu";
+
+#{$infoPanelDivBorder},
+#{$replyToMessageSection} {
+  border-top: $borderStyle;
+}
+
+#{$infoPanelContainer},
+#{$chatWindowContainer} {
+  border-left: $borderStyle;
+}
+
+#{$conversationTitleContainer} {
+  border-bottom: $borderStyle
+}
